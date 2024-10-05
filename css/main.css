@@ -84,7 +84,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0 100px 0;
 }
 main .wrapper,
 main .wrapper-offers {
@@ -684,6 +683,7 @@ main .product-storage__button:hover {
   }
   main .work {
     margin-bottom: 200px;
+    box-shadow: 0 -1px 93px 7px rgb(230, 238, 238);
   }
   main .work__img_img {
     width: 100%;
@@ -701,8 +701,9 @@ main .product-storage__button:hover {
     padding: 0 51px 0 0;
   }
   main .wrapper-offers {
-    margin-bottom: 200px;
+    margin-bottom: 160px;
     height: auto;
+    box-shadow: 0 -1px 93px 7px rgb(230, 238, 238);
   }
   main .offers {
     width: 100%;

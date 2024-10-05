@@ -91,7 +91,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 0 100px 0;
 	.wrapper,
 	.wrapper-offers {
 		display: flex;
@@ -776,6 +775,7 @@ main {
 
 		.work {
 			margin-bottom: 200px;
+			box-shadow: 0 -1px 93px 7px rgb(230, 238, 238);
 			&__img {
 				&_img {
 					width: 100%;
@@ -796,8 +796,9 @@ main {
 		}
 
 		.wrapper-offers {
-			margin-bottom: 200px;
+			margin-bottom: 160px;
 			height: auto;
+			box-shadow: 0 -1px 93px 7px rgb(230, 238, 238);
 		}
 
 		.offers {
