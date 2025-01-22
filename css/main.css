@@ -17,6 +17,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   background-color: rgb(245, 246, 247);
+  background-color: black;
 }
 .header__nav {
   width: 100%;
@@ -993,6 +994,4 @@ main .product-storage__button:hover {
   .footer {
     padding: 55px 0 55px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
